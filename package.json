@@ -1,0 +1,26 @@
+{
+  "name": "react-prompts",
+  "author": "Pavel Puzikov <my@inner.fish> (https://github.com/heydiplo)",
+  "homepage": "https://github.com/heydiplo/react-prompts",
+  "repository": "github:heydiplo/react-prompts",
+  "bugs": "https://github.com/heydiplo/react-prompts/issues",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
