@@ -40,12 +40,12 @@ export default (): Store => {
       type: OPEN_PROMPT,
       payload: {
         ...payload,
-        resolve: () => {
-          resolve()
+        resolve: (value?: any) => {
+          resolve(value)
           close(id)
         },
-        reject: () => {
-          reject()
+        reject: (error?: any) => {
+          reject(error)
           close(id)
         }
       }

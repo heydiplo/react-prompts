@@ -4,7 +4,7 @@
   "homepage": "https://github.com/heydiplo/react-prompts",
   "repository": "github:heydiplo/react-prompts",
   "bugs": "https://github.com/heydiplo/react-prompts/issues",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -14,7 +14,7 @@
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
