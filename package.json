@@ -4,7 +4,7 @@
   "homepage": "https://github.com/heydiplo/react-prompts",
   "repository": "github:heydiplo/react-prompts",
   "bugs": "https://github.com/heydiplo/react-prompts/issues",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "lib/index.js",

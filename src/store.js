@@ -40,6 +40,7 @@ export default (): Store => {
       type: OPEN_PROMPT,
       payload: {
         ...payload,
+        id,
         resolve: (value?: any) => {
           resolve(value)
           close(id)
